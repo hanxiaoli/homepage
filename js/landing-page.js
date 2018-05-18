@@ -1,7 +1,7 @@
 Vue.component('landing-page', {
-    template: '<ol><li>这是一个 todo 项</li></ol>'
+    template: '<page-header></page-header>'
 });
 
-new Vue({
-    el: '#landing-page'
-});
+// new Vue({
+//     el: '#landing-page'
+// });
